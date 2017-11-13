@@ -1,15 +1,9 @@
-# SQLite version 3.x
-#   gem install sqlite3
-#
-#   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem 'sqlite3'
-#
 default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: eozelius
-  password: 'miraFlores7&'
+  username: asdf
+  password: asdf
 
 development:
   adapter: postgresql
@@ -24,6 +18,10 @@ test:
 
 production:
   adapter: postgresql
-  database: imil_production
+  database: d2dpbdj17k7lmf
   pool: 5
   timeout: 5000
+  host: ec2-107-20-141-145.compute-1.amazonaws.com
+  port: 5432
+  user: ulcksmxcgxifto
+  password: 6b02bc2b7ed25ffe7c34f021afa6f2fd31bfa37e6612c252a6c525300782ec35
